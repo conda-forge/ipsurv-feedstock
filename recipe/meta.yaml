@@ -1,5 +1,5 @@
 {% set name = "ipsurv" %}
-{% set version = "1.3.1" %}
+{% set version = "1.3.2" %}
 {% set python_min = "3.6" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/ipsurv-{{ version }}.tar.gz
-  sha256: 3c3c19c09fa3173ed514dc7281088093b57b4e8609136be86e21065c5f69c22a
+  sha256: f18441a5e62b8ec29ef139373f832fad0b279c62693776d33a1ce5af9b362424
 
 build:
   number: 0
